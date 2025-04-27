@@ -1,5 +1,4 @@
-#ifndef CARD_H #define CARD_H
-
+#pragma once
 
 typedef struct card {
     char suit;
@@ -11,5 +10,3 @@ typedef struct card {
 char get_abbreviaion(static int value);
 
 
-
-#endif
