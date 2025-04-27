@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "Card.h"
+#include "./Card.h"
 
 const char suits[4] = {'S', 'H', 'D', 'C'};
 
@@ -10,7 +10,8 @@ int main(int argc, char *argv[]) {
     
     for (char i = 0; i < sizeof(suits); i++) 
     {
-        for (char j = 2; j < 14; j++) 
+        printf("Suit: %c\n", suits[i]);
+        for (int j = 2; j < 15; j++) 
         {
             Card* card = (Card*) malloc(sizeof(Card));
             if (card != NULL) 
@@ -18,8 +19,9 @@ int main(int argc, char *argv[]) {
                 card->suit = suits[i];
                 card->value = j;
             }
-            fprintf(stdout, "%c%c", card->suit, get_abbreviation(card->value));
+            fprintf(stdout, "%c%c", get_abbreviation(card->value), card->suit);
         }
+        printf("\n");
     }
     /* COMMENT */
     
