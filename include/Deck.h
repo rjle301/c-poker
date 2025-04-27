@@ -2,4 +2,4 @@
 
 typedef struct deck Deck;
 
-Deck create_deck();
+Deck* create_deck();

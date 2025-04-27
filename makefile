@@ -15,7 +15,7 @@ endif
 
 # Compiler
 CC = gcc
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -Wall -Wextra -g -I./include
 
 # Directories
 SRC_DIR := src
