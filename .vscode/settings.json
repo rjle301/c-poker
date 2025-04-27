@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "card.h": "c",
+        "stdlib.h": "c"
+    }
+}

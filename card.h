@@ -5,8 +5,12 @@ typedef struct card {
     char value;
 } Card;
 
-// Takes the value of a card and, if it's a face card,
-// returns the abbreviation of the face card
+/**
+ * @brief Retrieves the abbreviation corresponding to a given integer value.
+ * 
+ * @param value An integer representing the value for which the abbreviation is needed.
+ * @return A character representing the abbreviation of the given value.
+ */
 char get_abbreviation(const int value);
 
 

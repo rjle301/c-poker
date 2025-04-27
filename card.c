@@ -1,4 +1,4 @@
-#include "card.h"
+#include "Card.h"
 #include <stdio.h>
 #include <stdlib.h>
 
