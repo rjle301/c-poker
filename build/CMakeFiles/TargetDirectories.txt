@@ -1,0 +1,7 @@
+/Users/mark/Programming/c-poker/build/CMakeFiles/poker.dir
+/Users/mark/Programming/c-poker/build/CMakeFiles/edit_cache.dir
+/Users/mark/Programming/c-poker/build/CMakeFiles/rebuild_cache.dir
+/Users/mark/Programming/c-poker/build/CMakeFiles/list_install_components.dir
+/Users/mark/Programming/c-poker/build/CMakeFiles/install.dir
+/Users/mark/Programming/c-poker/build/CMakeFiles/install/local.dir
+/Users/mark/Programming/c-poker/build/CMakeFiles/install/strip.dir
