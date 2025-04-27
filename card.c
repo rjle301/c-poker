@@ -1,12 +1,13 @@
-#include card.h
+#include "card.h"
 #include <stdio.h>
+#include <stdlib.h>
 
-char get_abbreviation(static int value)
+char get_abbreviation(const int value)
 {
     // Card value should always be between 2 and 14, inclusive
     if (value < 2 || value > 14)
     {
-        printf("Error: illegal card value: %d", value, stderr);
+        fprintf(stderr, "Error: illegal card value: %d", value);
         exit(1);
     }
 
@@ -14,8 +15,8 @@ char get_abbreviation(static int value)
     {
         case 11: return 'J';
         case 12: return 'Q';
-        case 13: return 'K':
+        case 13: return 'K';
         case 14: return 'A';
-        default: return (char) value;
+        default: return '0' + value;
     }
 }

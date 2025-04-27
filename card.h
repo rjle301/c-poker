@@ -7,6 +7,6 @@ typedef struct card {
 
 // Takes the value of a card and, if it's a face card,
 // returns the abbreviation of the face card
-char get_abbreviaion(static int value);
+char get_abbreviation(const int value);
 
 
