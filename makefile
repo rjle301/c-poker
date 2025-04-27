@@ -4,7 +4,7 @@ ifeq ($(OS),Windows_NT)
     EXE_EXT := .exe
     RM := del /Q
     RM_DIR := rmdir /S /Q
-    MKDIR := mkdir
+    MKDIR := if not exist "$@" mkdir
 else
     DETECTED_OS := $(shell uname -s)
     EXE_EXT :=
